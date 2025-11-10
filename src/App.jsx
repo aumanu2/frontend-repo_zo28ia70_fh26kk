@@ -2,6 +2,7 @@ import React from 'react';
 import NavbarMega from './components/NavbarMega.jsx';
 import Hero3D from './components/Hero3D.jsx';
 import AISearch from './components/AISearch.jsx';
+import TechShowcase from './components/TechShowcase.jsx';
 import MegaFooter from './components/MegaFooter.jsx';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <main>
         <Hero3D />
         <AISearch />
+        <TechShowcase />
       </main>
       <MegaFooter />
     </div>
