@@ -1,18 +1,18 @@
 import React from 'react';
+import NavbarMega from './components/NavbarMega.jsx';
 import Hero3D from './components/Hero3D.jsx';
-import Features from './components/Features.jsx';
 import AISearch from './components/AISearch.jsx';
-import HowItWorks from './components/HowItWorks.jsx';
-import Footer from './components/Footer.jsx';
+import MegaFooter from './components/MegaFooter.jsx';
 
 function App() {
   return (
-    <div className="min-h-screen bg-[#0a0f1a] text-white">
-      <Hero3D />
-      <Features />
-      <AISearch />
-      <HowItWorks />
-      <Footer />
+    <div className="min-h-screen bg-[#0a0f1a] text-white selection:bg-blue-600/30 selection:text-white">
+      <NavbarMega />
+      <main>
+        <Hero3D />
+        <AISearch />
+      </main>
+      <MegaFooter />
     </div>
   );
 }
